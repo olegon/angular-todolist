@@ -11,6 +11,10 @@ module.exports = function() {
             done: true
         },
         {
+            text: 'Usar diretivas do Angular',
+            done: true
+        },
+        {
             text: 'Melhorar aparência',
             done: true
         },

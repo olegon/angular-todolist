@@ -32891,6 +32891,10 @@ module.exports = function() {
             done: true
         },
         {
+            text: 'Usar diretivas do Angular',
+            done: true
+        },
+        {
             text: 'Melhorar aparência',
             done: true
         },
@@ -32941,5 +32945,5 @@ todoList.directive('todoList', function () {
     };
 });
 
-}).call(this,require("e/U+97"),typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/fake_33a3189f.js","/")
+}).call(this,require("e/U+97"),typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer,arguments[3],arguments[4],arguments[5],arguments[6],"/fake_954a02a4.js","/")
 },{"./controllers/todoListController":7,"angular":2,"buffer":4,"e/U+97":6}]},{},[8])

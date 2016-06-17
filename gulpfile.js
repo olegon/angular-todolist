@@ -5,6 +5,7 @@ var sourcemaps = require('gulp-sourcemaps');
 var postcss = require('gulp-postcss');
 var sass = require('gulp-sass');
 var browserify = require('gulp-browserify');
+var ghPages = require('gulp-gh-pages');
 
 gulp.task('html', function() {
     return gulp.src('./src/**/*.html')
@@ -41,7 +42,7 @@ gulp.task('watch', function() {
 });
 
 gulp.task('deploy', function() {
-    return gulp.src('./dist/**/*')
+    return gulp.src('./build/**/*')
         .pipe(ghPages());
 });
 
